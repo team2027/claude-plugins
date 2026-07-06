@@ -6,6 +6,8 @@ The prompts are organized around the Johari-window idea that the most dangerous 
 
 ## Commands
 
+- `/unknowns:help` — list all commands with what each is for.
+
 ### Pre-implementation
 - `/unknowns:blindspot [area]` — surface unknown unknowns in an unfamiliar part of the codebase before you touch it.
 - `/unknowns:teach [topic]` — learn a domain enough to understand your unknown unknowns and prompt with real vocabulary.

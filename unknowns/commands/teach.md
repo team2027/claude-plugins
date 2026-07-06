@@ -1,6 +1,6 @@
 ---
 description: Learn a topic well enough to understand your unknown unknowns and prompt with real vocabulary
-argument-hint: [topic you need to learn]
+argument-hint: <topic to learn>
 ---
 
 I need to work with **$ARGUMENTS**, but I don't really know the domain.
@@ -13,3 +13,5 @@ Teach me **$ARGUMENTS** well enough that I understand my *unknown unknowns* and 
 4. End with a short glossary and a few example prompts I could give you, phrased the way an expert would.
 
 Optimize for making me a better collaborator on this, not for exhaustive theory.
+
+If no topic was provided above (the argument is empty), do not proceed — ask me what I'm trying to learn first, then run this pass on my answer.

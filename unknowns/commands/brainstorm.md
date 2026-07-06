@@ -1,6 +1,6 @@
 ---
 description: Search the codebase and brainstorm 10 places to intervene on a problem, cheapest to most ambitious
-argument-hint: [the problem you want to address]
+argument-hint: <problem you want to address>
 ---
 
 Here's my rough problem: **$ARGUMENTS**
@@ -13,3 +13,5 @@ For each idea give me:
 - The effort involved and the potential payoff.
 
 Don't filter for feasibility yet — I want range. I'll tell you which ones resonate and we'll go deeper on those.
+
+If no problem was provided above (the argument is empty), do not proceed — ask me what problem I'm trying to address first, then run this pass on my answer.

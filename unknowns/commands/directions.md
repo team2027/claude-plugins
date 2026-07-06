@@ -1,6 +1,6 @@
 ---
 description: Get 4 wildly different design directions as one HTML page you can react to
-argument-hint: [UI or screen you want to design]
+argument-hint: <UI or screen you want to design>
 ---
 
 I want to design: **$ARGUMENTS** — but I want to see options before committing to a look.
@@ -13,3 +13,5 @@ Make me **one self-contained HTML page** containing **4 wildly different design 
 - Inline all CSS; no external assets. It must open in a browser as a single file.
 
 I have no fixed visual taste here — give me range to react against.
+
+If no UI was provided above (the argument is empty), do not proceed — ask me what I want to design first, then run this pass on my answer.

@@ -1,6 +1,6 @@
 ---
 description: Have Claude interview you one question at a time to resolve ambiguity before building
-argument-hint: [feature or area that's still ambiguous]
+argument-hint: <feature or area that's still ambiguous>
 ---
 
 Interview me **one question at a time** about anything still ambiguous in: **$ARGUMENTS**
@@ -12,3 +12,5 @@ Rules:
 - When the answers stop changing anything important, tell me we're done and summarize the decisions we locked in.
 
 Start with your first question.
+
+If no feature or area was provided above (the argument is empty), do not proceed — ask me what I'm working on first, then run this pass on my answer.
