@@ -1,0 +1,43 @@
+unknowns/commands/help.md
+  s_d518e108e06873::t_32a11d3f693c87 1-19
+unknowns/README.md
+  s_d518e108e06873::t_6646c1eb536773 9-10
+unknowns/commands/blindspot.md
+  s_d518e108e06873::t_2cadf1ac9e9e0f 3,16-17
+unknowns/commands/brainstorm.md
+  s_d518e108e06873::t_1d8f5b5a8acc8b 3,16-17
+unknowns/commands/directions.md
+  s_d518e108e06873::t_0d3a4f2a96bcc8 3,16-17
+unknowns/commands/interview.md
+  s_d518e108e06873::t_8181e84c7727e6 3,15-16
+unknowns/commands/mock.md
+  s_d518e108e06873::t_ce21ddef031b93 3,14-15
+unknowns/commands/notes.md
+  s_d518e108e06873::t_c5b4125c539516 3,14-15
+unknowns/commands/pitch.md
+  s_d518e108e06873::t_c0e2a9bd3311a9 3,15-16
+unknowns/commands/plan.md
+  s_d518e108e06873::t_4fe682f1ea2bf4 3,15-16
+unknowns/commands/port.md
+  s_d518e108e06873::t_b91934a3ab4010 3,16-17
+unknowns/commands/quiz.md
+  s_d518e108e06873::t_a699b7db584353 3,18-19
+unknowns/commands/teach.md
+  s_d518e108e06873::t_af8b97a2501ec3 3,16-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3831da61a94df8f0a97ed6495344271c8ad3eacb",
+  "prompts": {},
+  "sessions": {
+    "s_d518e108e06873": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28ff5302-4eaf-4c3a-81ad-4a97ddbf4cf2",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Aleksey Bykhun <theisease@gmail.com>"
+    }
+  }
+}
