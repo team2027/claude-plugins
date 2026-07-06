@@ -1,7 +1,7 @@
 {
   "name": "unknowns",
   "description": "Eleven prompts for discovering your unknown unknowns across the software lifecycle — before, during, and after implementation — packaged as slash commands.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "2027.dev/evals"
   },
