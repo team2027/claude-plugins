@@ -1,0 +1,47 @@
+unknowns/.claude-plugin/plugin.json
+  s_d518e108e06873::t_3cc7f633433dae 1-10
+unknowns/README.md
+  s_d518e108e06873::t_f72e4578f5c43c 1-43
+unknowns/commands/blindspot.md
+  s_d518e108e06873::t_eb577ab9806e8a 1-15
+unknowns/commands/brainstorm.md
+  s_d518e108e06873::t_56b40924870dff 1-15
+unknowns/commands/directions.md
+  s_d518e108e06873::t_1b042907bf6ca0 1-15
+unknowns/commands/interview.md
+  s_d518e108e06873::t_1aa71c03187c27 1-14
+unknowns/commands/mock.md
+  s_d518e108e06873::t_0aa7db4a4c810f 1-13
+unknowns/commands/notes.md
+  s_d518e108e06873::t_43eb9ff61c8802 1-13
+unknowns/commands/pitch.md
+  s_d518e108e06873::t_9a5fbfd54277fa 1-14
+unknowns/commands/plan.md
+  s_d518e108e06873::t_92eab693d6695d 1-14
+unknowns/commands/port.md
+  s_d518e108e06873::t_1b8b28fffd90db 1-15
+unknowns/commands/quiz.md
+  s_d518e108e06873::t_8aeda8f77333ed 1-17
+unknowns/commands/teach.md
+  s_d518e108e06873::t_58e4f493914781 1-15
+.claude-plugin/marketplace.json
+  s_d518e108e06873::t_84046130404f72 1-13
+README.md
+  s_d518e108e06873::t_2edfb93de14fcb 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "47d117ddca54a29ce8f858700b97cfe0a00311b3",
+  "prompts": {},
+  "sessions": {
+    "s_d518e108e06873": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28ff5302-4eaf-4c3a-81ad-4a97ddbf4cf2",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Aleksey Bykhun <theisease@gmail.com>"
+    }
+  }
+}
