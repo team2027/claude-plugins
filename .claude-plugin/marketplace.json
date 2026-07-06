@@ -1,0 +1,13 @@
+{
+  "name": "team2027",
+  "owner": {
+    "name": "team2027"
+  },
+  "plugins": [
+    {
+      "name": "unknowns",
+      "source": "./unknowns",
+      "description": "Eleven prompts for discovering your unknown unknowns across the software lifecycle, as slash commands."
+    }
+  ]
+}

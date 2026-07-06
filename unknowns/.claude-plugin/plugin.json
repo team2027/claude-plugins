@@ -1,0 +1,10 @@
+{
+  "name": "unknowns",
+  "description": "Eleven prompts for discovering your unknown unknowns across the software lifecycle — before, during, and after implementation — packaged as slash commands.",
+  "version": "0.1.0",
+  "author": {
+    "name": "2027.dev/evals"
+  },
+  "homepage": "https://thariqs.github.io/html-effectiveness/unknowns/",
+  "keywords": ["unknowns", "planning", "design", "review", "prompts", "workflow"]
+}
