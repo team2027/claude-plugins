@@ -1,0 +1,47 @@
+unknowns/.claude-plugin/plugin.json
+  s_d518e108e06873::t_02ac2f7256458f 4
+unknowns/README.md
+  s_d518e108e06873::t_b14b98157d8fa1 28-51
+unknowns/generate-numbered.sh
+  s_d518e108e06873::t_d0975b010a8141 1-47
+unknowns/commands/help.md
+  s_d518e108e06873::t_8e4c3a4d624ce4 19-22
+unknowns/commands/01-blindspot.md
+  s_d518e108e06873::t_069369b936c8aa 1-17
+unknowns/commands/02-teach.md
+  s_d518e108e06873::t_604f5c5a378372 1-17
+unknowns/commands/03-interview.md
+  s_d518e108e06873::t_025540134a041d 1-16
+unknowns/commands/04-brainstorm.md
+  s_d518e108e06873::t_a471f7278c653e 1-17
+unknowns/commands/05-directions.md
+  s_d518e108e06873::t_2a2720f2a017a0 1-17
+unknowns/commands/06-mock.md
+  s_d518e108e06873::t_5849492ba29d0b 1-15
+unknowns/commands/07-port.md
+  s_d518e108e06873::t_23a5b08cd10b4b 1-17
+unknowns/commands/08-plan.md
+  s_d518e108e06873::t_fbf1dfddc4a1e4 1-16
+unknowns/commands/09-notes.md
+  s_d518e108e06873::t_a37ccb49017366 1-15
+unknowns/commands/10-pitch.md
+  s_d518e108e06873::t_ef838baab09982 1-16
+unknowns/commands/11-quiz.md
+  s_d518e108e06873::t_d4afba6f3ad35f 1-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "271f63431515d8b2596e142373c3e42dcbca6f7a",
+  "prompts": {},
+  "sessions": {
+    "s_d518e108e06873": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28ff5302-4eaf-4c3a-81ad-4a97ddbf4cf2",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Aleksey Bykhun <theisease@gmail.com>"
+    }
+  }
+}
