@@ -27,17 +27,17 @@ The prompts are organized around the Johari-window idea that the most dangerous 
 
 ## Installing
 
-From a Claude Code session, add the marketplace in this repo and install the plugin:
+From a Claude Code session, add the marketplace and install the plugin:
 
 ```
-/plugin marketplace add ./plugins
-/plugin install unknowns@evals-plugins
+/plugin marketplace add team2027/claude-plugins
+/plugin install unknowns@team2027
 ```
 
-Or point Claude Code at the plugin directly for local development:
+Or point Claude Code at the plugin directly for local development (from a checkout of this repo):
 
 ```
-claude --plugin-dir ./plugins/unknowns
+claude --plugin-dir ./unknowns
 ```
 
 ## Credit
