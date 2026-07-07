@@ -1,0 +1,19 @@
+unknowns/README.md
+  s_d518e108e06873::t_2b0cce7437e233 30,33-34,37,40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2a95850ac8f67432a315c5a621cc33114d3de989",
+  "prompts": {},
+  "sessions": {
+    "s_d518e108e06873": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28ff5302-4eaf-4c3a-81ad-4a97ddbf4cf2",
+        "model": "claude-fable-5"
+      },
+      "human_author": "Aleksey Bykhun <theisease@gmail.com>"
+    }
+  }
+}
