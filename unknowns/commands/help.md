@@ -16,4 +16,8 @@ Print a compact list of the unknowns plugin's commands — exactly the list belo
 - `/unknowns:pitch <feature to pitch>` — package the prototype, spec, and notes into one Slack-ready buy-in doc that leads with the demo.
 - `/unknowns:quiz <change or diff to review (defaults to the current diff)>` — get an HTML report on a change with a quiz you must pass before merging.
 
+Then tell the reader that every command also has a zero-padded numbered alias reflecting its lifecycle stage — so `/unknowns:04-brainstorm` runs the same command as `/unknowns:brainstorm` — and show the stage order compactly so `/unknowns:help` teaches the pipeline:
+
+`01-blindspot → 02-teach → 03-interview → 04-brainstorm → 05-directions → 06-mock → 07-port → 08-plan → 09-notes → 10-pitch → 11-quiz`
+
 End with a note that every command takes your own feature/topic as the argument.
