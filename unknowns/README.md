@@ -27,20 +27,23 @@ The prompts are organized around the Johari-window idea that the most dangerous 
 
 ## Numbered stage aliases
 
-Every command also has a zero-padded numbered alias reflecting its lifecycle stage, so you can walk the pipeline by number — `/unknowns:04-brainstorm` runs the same command as `/unknowns:brainstorm`.
+Every command also has a zero-padded numbered alias reflecting its lifecycle stage, so you can walk the pipeline by number — `/unknowns:02-brainstorm` runs the same command as `/unknowns:brainstorm`. The stages are grouped in three phases; the loop closes back on itself — **what you learn becomes the map for next time**.
 
 | Stage | Command | Purpose |
 | --- | --- | --- |
+| **Before implementation** | | |
 | `01-blindspot` | `/unknowns:blindspot` | surface unknown unknowns in an unfamiliar part of the codebase before you start. |
-| `02-teach` | `/unknowns:teach` | learn a domain enough to see your unknown unknowns and prompt with real vocabulary. |
-| `03-interview` | `/unknowns:interview` | get interviewed one question at a time, prioritizing architecture-changing questions. |
-| `04-brainstorm` | `/unknowns:brainstorm` | brainstorm 10 intervention points, cheapest to most ambitious. |
-| `05-directions` | `/unknowns:directions` | get 4 wildly different design directions as one HTML page to react to. |
-| `06-mock` | `/unknowns:mock` | mock a UI as a single HTML file with fake data before wiring anything real. |
-| `07-port` | `/unknowns:port` | reimplement a reference's semantics elsewhere, confirming a semantics map first. |
-| `08-plan` | `/unknowns:plan` | get an implementation plan as HTML that leads with the decisions you're most likely to tweak. |
-| `09-notes` | `/unknowns:notes` | build while keeping an implementation-notes file that logs deviations from the plan. |
-| `10-pitch` | `/unknowns:pitch` | package the prototype, spec, and notes into one Slack-ready buy-in doc that leads with the demo. |
+| `02-brainstorm` | `/unknowns:brainstorm` | brainstorm 10 intervention points, cheapest to most ambitious. |
+| `03-directions` | `/unknowns:directions` | get 4 wildly different design directions as one HTML page to react to. |
+| `04-mock` | `/unknowns:mock` | mock a UI as a single HTML file with fake data before wiring anything real. |
+| `05-interview` | `/unknowns:interview` | get interviewed one question at a time, prioritizing architecture-changing questions. |
+| `06-port` | `/unknowns:port` | reimplement a reference's semantics elsewhere, confirming a semantics map first. |
+| `07-plan` | `/unknowns:plan` | get an implementation plan as HTML that leads with the decisions you're most likely to tweak. |
+| **During implementation** | | |
+| `08-notes` | `/unknowns:notes` | build while keeping an implementation-notes file that logs deviations from the plan. |
+| **After implementation** | | |
+| `09-pitch` | `/unknowns:pitch` | package the prototype, spec, and notes into one Slack-ready buy-in doc that leads with the demo. |
+| `10-teach` | `/unknowns:teach` | learn a domain enough to see your unknown unknowns and prompt with real vocabulary. |
 | `11-quiz` | `/unknowns:quiz` | get an HTML report on a diff, with a quiz at the bottom you must pass before merging. |
 
 The numbered files under `commands/` are **generated** by `generate-numbered.sh` from the canonical named files — don't hand-edit them. Re-run the script after changing any named command:

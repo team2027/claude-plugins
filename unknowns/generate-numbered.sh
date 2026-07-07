@@ -14,17 +14,21 @@ cd "$(dirname "$0")"
 COMMANDS_DIR="commands"
 
 # Ordered lifecycle stages: NN <name>
+# Grouped by phase:
+#   Before implementation (01-07): blindspot, brainstorm, directions, mock, interview, port, plan
+#   During implementation (08):     notes
+#   After implementation (09-11):   pitch, teach, quiz
 STAGES=(
   "01 blindspot"
-  "02 teach"
-  "03 interview"
-  "04 brainstorm"
-  "05 directions"
-  "06 mock"
-  "07 port"
-  "08 plan"
-  "09 notes"
-  "10 pitch"
+  "02 brainstorm"
+  "03 directions"
+  "04 mock"
+  "05 interview"
+  "06 port"
+  "07 plan"
+  "08 notes"
+  "09 pitch"
+  "10 teach"
   "11 quiz"
 )
 
