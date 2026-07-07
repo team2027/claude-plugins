@@ -1,0 +1,25 @@
+unknowns/README.md
+  s_d518e108e06873::t_ce7262b26ac08b 30,34,36-46
+unknowns/commands/help.md
+  s_d518e108e06873::t_5e9c50bd5f721f 19,21-25
+unknowns/.claude-plugin/plugin.json
+  s_d518e108e06873::t_415edf9968a226 4
+unknowns/generate-numbered.sh
+  s_d518e108e06873::t_bde19b8b9e9023 17-20,23-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b7106de80c4371c2c8372e8ed6bda99f7e25165d",
+  "prompts": {},
+  "sessions": {
+    "s_d518e108e06873": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "28ff5302-4eaf-4c3a-81ad-4a97ddbf4cf2",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Aleksey Bykhun <theisease@gmail.com>"
+    }
+  }
+}
